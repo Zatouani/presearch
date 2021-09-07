@@ -3,13 +3,13 @@
 import time
 import random
 #You can edit order repetition from the next line on range(1,x+1)
-for z in range(1,33):
+for z in range(1,4):
     import webbrowser
     url = f'https://engine.presearch.org/search?q=num{random.randint(1,100)}ber+{random.randint(1,100)}'
     webbrowser.register('edge',
     	None,
         #You should find out your chrome.exe location on your computer and paste it down here.
-    	webbrowser.BackgroundBrowser("C://Program Files (x86)//Microsoft//Edge//Application//msedge.exe"))
+    	webbrowser.BackgroundBrowser("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"))
     webbrowser.get('edge').open(url)
     #By changing 11 to Your considered time, orderes will take place after X seconds.
     time.sleep(17)
