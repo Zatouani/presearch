@@ -3,7 +3,7 @@
 import time
 import random
 #You can edit order repetition from the next line on range(1,x+1)
-for z in range(1,15):
+for z in range(1,35):
     import webbrowser
     url = f'https://engine.presearch.org/search?q=num{random.randint(1,100)}ber+{random.randint(1,100)}'
     webbrowser.register('edge',
