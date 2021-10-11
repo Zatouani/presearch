@@ -9,7 +9,7 @@ for z in range(1,35):
     webbrowser.register('edge',
     	None,
         #You should find out your chrome.exe location on your computer and paste it down here.
-    	webbrowser.BackgroundBrowser("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"))
+    	webbrowser.BackgroundBrowser("C:\Program Files\BraveSoftware\Brave-Browser\Application\chrome_proxy.exe"))
     webbrowser.get('edge').open(url)
     #By changing 11 to Your considered time, orderes will take place after X seconds.
     time.sleep(22)
